@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="global.css">
+  <link rel="stylesheet" href="todo.css">
+  <script src="script.js" defer></script>
+  <script src="theme.js" defer></script>
+  <title>Frontend Mentor | Todo app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body class="light">
+
+  <main class="main">
+    <header class="header">
+      <h1 class="title">
+        Todo
+      </h1>
+      <figure class="icon-theme icone-theme-dark">
+        <img src="/images/icon-moon.svg" alt="Icone Theme">
+      </figure>
+    </header>
+
+    <div class="container-input-todo">
+      <button class="submit submit-todo"></button>
+      <input type="text" class="input-todo" placeholder="Create a new todo...">
+    </div>
+
+    <div class="container-list-todo">
+      <ul class="list-todo">
+        <!-- <li class="todo-item todo-item-completed"> Terefa Concluida</li> -->
+        <!-- <li class="todo-item">Terefa Nao Concluida</li> -->
+      </ul>
+      <div class="container-filters">
+        <p class="items-left">
+          0 items left
+        </p>
+        <div class="filters">
+          <span class="filter all">All</span>
+          <span class="filter active">Active</span>
+          <span class="filter completed">Completed</span>
+        </div>
+        <p class="clear">
+          Clear Completed
+        </p>
+      </div>
+    </div>
+  </main>
+
+  <!-- Add dynamic number items left -->
+
+
+  <!-- Drag and drop to reorder list -->
+
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+
+</body>
+</html>
